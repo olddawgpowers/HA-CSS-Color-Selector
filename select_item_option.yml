@@ -1,0 +1,6 @@
+type: custom:mushroom-select-card
+entity: input_select.card_configuration
+grid_options:
+  columns: full
+name: Card Color Configuration
+icon: mdi:palette

@@ -1,0 +1,22 @@
+type: custom:mushroom-template-card
+primary: Primary Color
+secondary: Secondary Color
+icon: mdi:home
+icon_color: " {{ states('input_text.icon_c')[:7] }}"
+grid_options:
+  columns: full
+  rows: 2
+card_mod:
+  style:
+    mushroom-state-info$: |
+      .container {
+        --card-primary-color: {{ states('input_text.primary_c')[:7] }};
+        --card-secondary-color:{{ states('input_text.secondary_c')[:7] }};
+       --card-secondary-font-size: 12px;
+       --card-primary-font-size: 15px;
+      }
+    .: |
+      ha-card {
+        background: {{ states('input_text.background_c')[:7] }};
+        
+      }

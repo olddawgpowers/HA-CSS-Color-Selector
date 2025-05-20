@@ -1,0 +1,121 @@
+square: false
+type: grid
+title: Color Information
+cards:
+  - type: custom:mushroom-template-card
+    secondary: "{{ states('input_text.icon_c') }}"
+    icon_color: " {{ states('input_text.icon_c')[:7] }}"
+    grid_options:
+      columns: 6
+      rows: 1
+    icon: ""
+    primary: Icon
+    tap_action:
+      action: none
+    double_tap_action:
+      action: none
+  - type: custom:mushroom-template-card
+    layout: horizontal
+    fill_container: true
+    primary: ""
+    icon: ""
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    card_mod:
+      style: |
+        ha-card {
+          background-color: {{ states('input_text.icon_c')[:7] }};
+          color: white;
+          height: 60px;
+          font-size: 14px;
+        }
+  - type: custom:mushroom-template-card
+    secondary: "{{ states('input_text.background_c') }}"
+    icon_color: " {{ states('input_text.icon_c')[:7] }}"
+    grid_options:
+      columns: 6
+      rows: 1
+    icon: ""
+    primary: Background
+    tap_action:
+      action: none
+    double_tap_action:
+      action: none
+  - type: custom:mushroom-template-card
+    layout: horizontal
+    fill_container: true
+    primary: ""
+    icon: ""
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    card_mod:
+      style: |
+        ha-card {
+          background-color: {{ states('input_text.background_c')[:7] }};
+          color: white;
+          height: 60px;
+          font-size: 14px;
+        }
+  - type: custom:mushroom-template-card
+    secondary: "{{ states('input_text.primary_c') }}"
+    icon_color: " {{ states('input_text.icon_c')[:7] }}"
+    grid_options:
+      columns: 6
+      rows: 1
+    icon: ""
+    primary: Primary
+    tap_action:
+      action: none
+    double_tap_action:
+      action: none
+  - type: custom:mushroom-template-card
+    layout: horizontal
+    fill_container: true
+    primary: ""
+    icon: ""
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    card_mod:
+      style: |
+        ha-card {
+          background-color: {{ states('input_text.primary_c')[:7] }};
+          color: white;
+          height: 60px;
+          font-size: 14px;
+        }
+  - type: custom:mushroom-template-card
+    secondary: "{{ states('input_text.secondary_c') }}"
+    grid_options:
+      columns: 6
+      rows: 1
+    icon: ""
+    primary: Secondary
+    tap_action:
+      action: none
+    double_tap_action:
+      action: none
+    icon_color: ""
+  - type: custom:mushroom-template-card
+    layout: horizontal
+    fill_container: true
+    primary: ""
+    icon: ""
+    tap_action:
+      action: none
+    hold_action:
+      action: none
+    card_mod:
+      style: |
+        ha-card {
+          background-color: {{ states('input_text.secondary_c')[:7] }};
+          color: white;
+          height: 60px;
+          font-size: 14px;
+        }
+columns: 2

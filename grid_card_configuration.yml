@@ -1,0 +1,1929 @@
+type: grid
+title: 🎨 CSS Colors (Sorted by Hue)
+columns: 10
+square: true
+cards:
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#000000"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#000000 (black)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#A52A2A"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#A52A2A (brown)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#A9A9A9"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#A9A9A9 (darkgray)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#A9A9A9"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#A9A9A9 (darkgrey)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#8B0000"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#8B0000 (darkred)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#696969"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#696969 (dimgray)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#696969"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#696969 (dimgrey)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#B22222"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#B22222 (firebrick)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#DCDCDC"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#DCDCDC (gainsboro)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#808080"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#808080 (gray)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#808080"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#808080 (grey)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#CD5C5C"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#CD5C5C (indianred)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F08080"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F08080 (lightcoral)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#D3D3D3"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#D3D3D3 (lightgray)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#D3D3D3"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#D3D3D3 (lightgrey)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#800000"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#800000 (maroon)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF0000"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF0000 (red)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#BC8F8F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#BC8F8F (rosybrown)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#C0C0C0"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#C0C0C0 (silver)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFFAFA"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFFAFA (snow)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFFFFF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFFFFF (white)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F5F5F5"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F5F5F5 (whitesmoke)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFE4E1"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFE4E1 (mistyrose)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FA8072"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FA8072 (salmon)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF6347"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF6347 (tomato)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#E9967A"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#E9967A (darksalmon)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF7F50"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF7F50 (coral)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF4500"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF4500 (orangered)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFA07A"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFA07A (lightsalmon)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#A0522D"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#A0522D (sienna)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFF5EE"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFF5EE (seashell)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#D2691E"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#D2691E (chocolate)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#8B4513"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#8B4513 (saddlebrown)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F4A460"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F4A460 (sandybrown)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFDAB9"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFDAB9 (peachpuff)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#CD853F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#CD853F (peru)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FAF0E6"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FAF0E6 (linen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFE4C4"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFE4C4 (bisque)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF8C00"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF8C00 (darkorange)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#DEB887"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#DEB887 (burlywood)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FAEBD7"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FAEBD7 (antiquewhite)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#D2B48C"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#D2B48C (tan)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFDEAD"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFDEAD (navajowhite)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFEBCD"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFEBCD (blanchedalmond)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFEFD5"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFEFD5 (papayawhip)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFE4B5"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFE4B5 (moccasin)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFA500"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFA500 (orange)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F5DEB3"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F5DEB3 (wheat)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FDF5E6"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FDF5E6 (oldlace)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFFAF0"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFFAF0 (floralwhite)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#B8860B"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#B8860B (darkgoldenrod)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#DAA520"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#DAA520 (goldenrod)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFF8DC"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFF8DC (cornsilk)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFD700"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFD700 (gold)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFFACD"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFFACD (lemonchiffon)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F0E68C"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F0E68C (khaki)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#EEE8AA"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#EEE8AA (palegoldenrod)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#BDB76B"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#BDB76B (darkkhaki)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F5F5DC"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F5F5DC (beige)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFFFF0"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFFFF0 (ivory)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FAFAD2"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FAFAD2 (lightgoldenrodyellow)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFFFE0"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFFFE0 (lightyellow)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#808000"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#808000 (olive)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFFF00"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFFF00 (yellow)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#6B8E23"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#6B8E23 (olivedrab)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#9ACD32"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#9ACD32 (yellowgreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#556B2F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#556B2F (darkolivegreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#ADFF2F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#ADFF2F (greenyellow)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#7FFF00"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#7FFF00 (chartreuse)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#7CFC00"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#7CFC00 (lawngreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#006400"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#006400 (darkgreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#8FBC8F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#8FBC8F (darkseagreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#228B22"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#228B22 (forestgreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#008000"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#008000 (green)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F0FFF0"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F0FFF0 (honeydew)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#90EE90"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#90EE90 (lightgreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00FF00"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00FF00 (lime)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#32CD32"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#32CD32 (limegreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#98FB98"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#98FB98 (palegreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#2E8B57"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#2E8B57 (seagreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#3CB371"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#3CB371 (mediumseagreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00FF7F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00FF7F (springgreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F5FFFA"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F5FFFA (mintcream)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00FA9A"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00FA9A (mediumspringgreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#66CDAA"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#66CDAA (mediumaquamarine)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#7FFFD4"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#7FFFD4 (aquamarine)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#40E0D0"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#40E0D0 (turquoise)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#20B2AA"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#20B2AA (lightseagreen)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#48D1CC"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#48D1CC (mediumturquoise)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00FFFF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00FFFF (aqua)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F0FFFF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F0FFFF (azure)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00FFFF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00FFFF (cyan)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#008B8B"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#008B8B (darkcyan)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#2F4F4F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#2F4F4F (darkslategray)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#2F4F4F"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#2F4F4F (darkslategrey)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#E0FFFF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#E0FFFF (lightcyan)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#AFEEEE"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#AFEEEE (paleturquoise)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#008080"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#008080 (teal)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00CED1"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00CED1 (darkturquoise)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#5F9EA0"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#5F9EA0 (cadetblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#B0E0E6"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#B0E0E6 (powderblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#ADD8E6"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#ADD8E6 (lightblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00BFFF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00BFFF (deepskyblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#87CEEB"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#87CEEB (skyblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#87CEFA"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#87CEFA (lightskyblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#4682B4"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#4682B4 (steelblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F0F8FF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F0F8FF (aliceblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#1E90FF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#1E90FF (dodgerblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#778899"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#778899 (lightslategray)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#778899"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#778899 (lightslategrey)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#708090"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#708090 (slategray)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#708090"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#708090 (slategrey)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#B0C4DE"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#B0C4DE (lightsteelblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#6495ED"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#6495ED (cornflowerblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#4169E1"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#4169E1 (royalblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#0000FF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#0000FF (blue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#00008B"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#00008B (darkblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#F8F8FF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#F8F8FF (ghostwhite)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#E6E6FA"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#E6E6FA (lavender)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#0000CD"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#0000CD (mediumblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#191970"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#191970 (midnightblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#000080"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#000080 (navy)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#6A5ACD"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#6A5ACD (slateblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#483D8B"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#483D8B (darkslateblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#7B68EE"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#7B68EE (mediumslateblue)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#9370DB"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#9370DB (mediumpurple)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#663399"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#663399 (rebeccapurple)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#8A2BE2"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#8A2BE2 (blueviolet)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#4B0082"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#4B0082 (indigo)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#9932CC"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#9932CC (darkorchid)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#9400D3"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#9400D3 (darkviolet)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#BA55D3"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#BA55D3 (mediumorchid)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#8B008B"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#8B008B (darkmagenta)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF00FF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF00FF (fuchsia)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF00FF"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF00FF (magenta)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#DDA0DD"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#DDA0DD (plum)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#800080"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#800080 (purple)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#D8BFD8"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#D8BFD8 (thistle)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#EE82EE"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#EE82EE (violet)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#DA70D6"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#DA70D6 (orchid)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#C71585"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#C71585 (mediumvioletred)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF1493"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF1493 (deeppink)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FF69B4"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FF69B4 (hotpink)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFF0F5"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFF0F5 (lavenderblush)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#DB7093"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#DB7093 (palevioletred)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#DC143C"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#DC143C (crimson)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFC0CB"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFC0CB (pink)"
+  - type: custom:button-card
+    styles:
+      card:
+        - background-color: "#FFB6C1"
+        - height: 40px
+        - border: "1px solid #333"
+        - border-radius: 4px
+    tap_action:
+      action: call-service
+      service: input_text.set_value
+      service_data:
+        entity_id: input_text.selected_color
+        value: "#FFB6C1 (lightpink)"

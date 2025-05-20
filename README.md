@@ -46,7 +46,7 @@ Paste select_item_option.yml in new Manual Card to create
 ![image](https://github.com/user-attachments/assets/8db98fdd-345a-497d-8ce2-29d62e9c4f99)  
 
 **Create Card Options Card with Radio Buttons**  
-
+Paste select_item_option_radiobutton.yml in new Manual Card to create  
 ![image](https://github.com/user-attachments/assets/4c5c176b-e537-4430-9326-dafb3f766198)
 
 

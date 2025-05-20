@@ -1,0 +1,49 @@
+alias: Card Color Configuration
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - input_text.selected_color
+conditions: null
+actions:
+  - choose:
+      - conditions:
+          - condition: state
+            entity_id: input_select.card_configuration
+            state: Icon
+        sequence:
+          - data:
+              value: "{{ states('input_text.selected_color') }}"
+            target:
+              entity_id: input_text.icon_c
+            action: input_text.set_value
+      - conditions:
+          - condition: state
+            entity_id: input_select.card_configuration
+            state: Background
+        sequence:
+          - data:
+              value: "{{ states('input_text.selected_color') }}"
+            target:
+              entity_id: input_text.background_c
+            action: input_text.set_value
+      - conditions:
+          - condition: state
+            entity_id: input_select.card_configuration
+            state: Primary
+        sequence:
+          - data:
+              value: "{{ states('input_text.selected_color') }}"
+            target:
+              entity_id: input_text.primary_c
+            action: input_text.set_value
+      - conditions:
+          - condition: state
+            entity_id: input_select.card_configuration
+            state: Secondary
+        sequence:
+          - data:
+              value: "{{ states('input_text.selected_color') }}"
+            target:
+              entity_id: input_text.secondary_c
+            action: input_text.set_value            

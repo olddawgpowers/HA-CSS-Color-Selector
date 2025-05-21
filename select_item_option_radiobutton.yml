@@ -38,6 +38,41 @@ cards:
             - padding-left: 2px
             - color: lightskyblue
       - type: custom:button-card
+        name: Icon Background
+        icon: |
+          [[[
+            return states['input_select.card_configuration'].state === 'IconBackground'
+              ? 'mdi:radiobox-marked'
+              : 'mdi:radiobox-blank';
+          ]]]
+        layout: icon_name
+        tap_action:
+          action: call-service
+          service: input_select.select_option
+          service_data:
+            entity_id: input_select.card_configuration
+            option: IconBackground
+        styles:
+          card:
+            - height: 24px
+            - padding: 2px 6px
+            - justify-content: flex-start
+          icon:
+            - width: 20px
+            - height: 20px
+            - margin-right: 6px
+            - color: |
+                [[[
+                  return states['input_select.card_configuration'].state === 'IconBackground'
+                    ? 'indianred'
+                    : 'var(--primary-text-color)';
+                ]]]
+          name:
+            - justify-self: start
+            - font-size: 14px
+            - padding-left: 2px
+            - color: lightskyblue
+      - type: custom:button-card
         name: Background
         icon: |
           [[[

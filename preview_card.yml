@@ -10,7 +10,10 @@ card_mod:
   style:
     mushroom-shape-icon$: |
       .shape {
-        background: {{ states('input_text.background_c')[:7] }} !important;
+        --background: {{ states('input_text.background_c')[:7] }} !important;
+        --shape-color:{{ states('input_text.icon_background_c')[:7] }};
+        --icon-symbol-size: 60px;
+        --icon-size: 70px;      
       }
     mushroom-state-info$: |
       .container {
@@ -27,5 +30,6 @@ card_mod:
        }
       ha-state-icon {
        --card-mod-icon: mdi:mushroom;
-       --icon-symbol-size: 40px;
+       
+
         }   

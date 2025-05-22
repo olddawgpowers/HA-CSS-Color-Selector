@@ -5,8 +5,19 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
    
 
 **The following resources must be installed from HACS**  
-	card-mod  
-	mushroom   
+If you do not have HACS installed or are not familiar with HACS there are some good guides available.  Both card-mod and mushroom have instructions for installation. They both can be installed using HACS.  
+	- card-mod  
+	- mushroom   
+ 
+ ![image](https://github.com/user-attachments/assets/f4bafde9-761a-4f48-a42b-02d557585562)  
+
+![image](https://github.com/user-attachments/assets/7bf0d6af-a3d3-4483-8e65-f9d23a15aefd)  
+
+If installed, they will show in your resources  
+
+![image](https://github.com/user-attachments/assets/01df9178-609a-4442-b37e-c1b4e0f73d7d)
+
+
 
  **Add the following Helpers**  
  **They are case and text-sensitive, enter exactly as shown**  

@@ -72,7 +72,7 @@ All cards are created using the Manual Card
 ![image](https://github.com/user-attachments/assets/cc3f9270-3261-4edf-aa0c-0c58f4a9d15b)  
 
 **Tip**
-Be sure to delete or paste over the **type:""** pasting the code in.  
+Be sure to delete or paste over the **type:""** before pasting the code in.  
 
 ![image](https://github.com/user-attachments/assets/0c15787e-055f-447a-83cb-03782092e7ae)   
 

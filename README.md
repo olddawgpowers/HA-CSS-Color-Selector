@@ -27,7 +27,13 @@ If installed, they will show in your resources
 - input_text.background_c 	(Contains color value for Background0   
 - input_text.primary_c  		(Contains color value for Primary text)   
 - input_text.secondary_c  	(Contains color value for Secondary text)
-- input_select.card_configuration  (Contains options to select to preview color Icon, Background, Primary, Secondary)  
+- input_select.card_configuration  (Contains options to select to preview color Icon, Background, Primary, Secondary)
+   - **Add the following Options to the input_select.card_configuration entity**
+     - 	Icon
+     - 	IconBackground
+     - 	Background
+     - 	Primary
+     - 	Secondary  
 
 **Use the Text Helper for input_text**    
 ![image](https://github.com/user-attachments/assets/448afb29-3814-4172-9a6b-8b3014e3ac27)  

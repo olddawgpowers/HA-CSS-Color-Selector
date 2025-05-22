@@ -19,14 +19,14 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
 - input_select.card_configuration  (Contains options to select to preview color Icon, Background, Primary, Secondary)  
 
 **Use the Text Helper for input_text**    
- 
-![image](https://github.com/user-attachments/assets/2193a072-f4ed-45ed-925b-39c6fdefa377)  
+![image](https://github.com/user-attachments/assets/448afb29-3814-4172-9a6b-8b3014e3ac27)  
+
 
  
   
  **Use the Dropdown Helper for input_select**      
- 
- ![image](https://github.com/user-attachments/assets/c994f8e8-dca0-475e-af31-f782ae69a16f)       
+![image](https://github.com/user-attachments/assets/2e6a9027-f903-4786-8512-e348aaf59f43)  
+      
 
 
 **Create Automation or NodeRed Flow** 
@@ -38,6 +38,11 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
  ![image](https://github.com/user-attachments/assets/518fb66f-75fc-4d02-a699-37692d8c5300)  
 
  
+**CREATING CARDS**  
+All are created using the Manual Card
+
+![image](https://github.com/user-attachments/assets/cc3f9270-3261-4edf-aa0c-0c58f4a9d15b)  
+
 
 **Create Color Grid Card**  
 Paste grid_card_configuration.yml into new Manual Card to create  

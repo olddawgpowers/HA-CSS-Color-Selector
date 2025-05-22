@@ -27,22 +27,33 @@ If installed, they will show in your resources
 - input_text.background_c 	(Contains color value for Background0   
 - input_text.primary_c  		(Contains color value for Primary text)   
 - input_text.secondary_c  	(Contains color value for Secondary text)
-- input_select.card_configuration  (Contains options to select to preview color Icon, Background, Primary, Secondary)
+- **Use the Text Helper for input_text**
+     
+![image](https://github.com/user-attachments/assets/448afb29-3814-4172-9a6b-8b3014e3ac27)  
+
+ **Example for input_text.selected_color**    
+
+![image](https://github.com/user-attachments/assets/1d74b21c-960e-4d56-92e3-17002512d6dd)
+
+ - input_select.card_configuration  (Contains options to select to preview color Icon, Background, Primary, Secondary)
    - **Add the following Options to the input_select.card_configuration entity**
      - 	Icon
      - 	IconBackground
      - 	Background
      - 	Primary
-     - 	Secondary  
-
-**Use the Text Helper for input_text**    
-![image](https://github.com/user-attachments/assets/448afb29-3814-4172-9a6b-8b3014e3ac27)  
-
-
- 
+     - 	Secondary
+    
   
- **Use the Dropdown Helper for input_select**      
+   
+  
+ **Use the Dropdown Helper for input_select** 
+ 
 ![image](https://github.com/user-attachments/assets/2e6a9027-f903-4786-8512-e348aaf59f43)  
+
+**Example for input_select.card_configurationr**  
+
+![image](https://github.com/user-attachments/assets/ed4e13e6-7782-41e5-bcda-4a8e8f6741d0)
+
       
 
 

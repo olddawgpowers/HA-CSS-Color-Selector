@@ -11,7 +11,7 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
  **Add the following Helpers**  
  input_text.selected_color  Get color selected from Color Grid   
  input_text.icon_c  Contains color value for Icon  
- input_text.icon_background_c color value for Icon Background
+ input_text.icon_background_c color value for Icon Background  
  input_text.background_c Contains color value for Background   
  input_text.primary_c  Contains color value for Primary text   
  input_text.secondary_c  Contains color value for Secondary text   

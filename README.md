@@ -9,13 +9,25 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
 	mushroom   
 
  **Add the following Helpers**  
- input_text.selected_color  Get color selected from Color Grid   
- input_text.icon_c  Contains color value for Icon  
- input_text.icon_background_c color value for Icon Background  
- input_text.background_c Contains color value for Background   
- input_text.primary_c  Contains color value for Primary text   
- input_text.secondary_c  Contains color value for Secondary text   
- input_select.card_configuration  Contains options to select to preview color (Icon, Background, Primary, Secondary)  
+ **They are case and text-sensitive, enter exactly as shown**  
+- input_text.selected_color  	(Get color selected from Color Grid)       
+- input_text.icon_c  		(Contains color value for Icon)  
+- input_text.icon_background_c 	(Contains color value for Icon Background)  
+- input_text.background_c 	(Contains color value for Background0   
+- input_text.primary_c  		(Contains color value for Primary text)   
+- input_text.secondary_c  	(Contains color value for Secondary text)
+- input_select.card_configuration  (Contains options to select to preview color Icon, Background, Primary, Secondary)  
+
+**Use the Text Helper for input_text**    
+ 
+![image](https://github.com/user-attachments/assets/2193a072-f4ed-45ed-925b-39c6fdefa377)  
+
+ 
+  
+ **Use the Dropdown Helper for input_select**      
+ 
+ ![image](https://github.com/user-attachments/assets/c994f8e8-dca0-475e-af31-f782ae69a16f)   
+
 
 **Create Automation or NodeRed Flow** 
  Some prefer Automations or NodeRed I have provide code for both.  **Install only one.**  

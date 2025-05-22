@@ -39,9 +39,22 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
 
  
 **CREATING CARDS**  
-All are created using the Manual Card
+All cards are created using the Manual Card
 
 ![image](https://github.com/user-attachments/assets/cc3f9270-3261-4edf-aa0c-0c58f4a9d15b)  
+
+**Tip**
+Be sure to delete or paste over the **type:""** pasting the code in.  
+
+![image](https://github.com/user-attachments/assets/0c15787e-055f-447a-83cb-03782092e7ae)   
+
+It should look like this before pasting in the code.
+
+![image](https://github.com/user-attachments/assets/0ee7e5bd-fbb5-48de-8a5e-5b3e0f5cd00b)
+
+If you have pasted the code correctly, you should see a preview of the card.  
+
+![image](https://github.com/user-attachments/assets/0f496c37-6731-4546-b835-ae109aa45b37)
 
 
 **Create Color Grid Card**  

@@ -26,7 +26,7 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
   
  **Use the Dropdown Helper for input_select**      
  
- ![image](https://github.com/user-attachments/assets/c994f8e8-dca0-475e-af31-f782ae69a16f)   
+ ![image](https://github.com/user-attachments/assets/c994f8e8-dca0-475e-af31-f782ae69a16f)       
 
 
 **Create Automation or NodeRed Flow** 

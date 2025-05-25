@@ -3,6 +3,8 @@ The HA CSS Color Selector was created to allow a preview of color schemes for a 
 
 ![image](https://github.com/user-attachments/assets/4f42542c-bd66-4144-bce5-c8e16f0072b6)
    
+**INSTALLATION**  
+Installation is accomplished using the card-mod, mushroom repositories from HACS, Helpers, and Manual Cards. You need to be familiar with adding repositories from HACS, creating Helpers, and creating Manual Cards. If you are not familiar with any of these requirements, there are excellent guides in Home Assistant and online videos available.  
 
 **The following resources must be installed from HACS**  
 If you do not have HACS installed or are not familiar with HACS there are some good guides available.  Both card-mod and mushroom have instructions for installation. They both can be installed using HACS.  
